@@ -120,7 +120,7 @@ function Index() {
           <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 py-16 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:px-8 lg:py-24">
             <div className="rise-in">
               <p className="inline-flex items-center gap-2 rounded-full border border-brand/20 bg-brand/8 px-3.5 py-1.5 text-xs font-semibold tracking-wide text-brand uppercase">
-                <Handshakeless /> Cooperative-powered marketplace
+                <Dot /> Cooperative-powered marketplace
               </p>
               <h1 className="mt-6 font-display text-4xl leading-[1.08] font-semibold text-foreground sm:text-5xl lg:text-6xl">
                 Local Services.{" "}
@@ -398,6 +398,6 @@ function Index() {
   );
 }
 
-function Handshakeless() {
+function Dot() {
   return <span className="size-1.5 rounded-full bg-clay" aria-hidden="true" />;
 }
